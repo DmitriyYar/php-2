@@ -13,7 +13,9 @@ $user = new User(1, $name, ucfirst($faker->word()));
 $post = new Post(1, $user, $faker->realText(rand(10, 15)), $faker->realText(rand(150, 300)));
 $comment = new Comments(1, $user, $post, $faker->realText(30));
 
-switch ($argv[1]) {
+$route = $argv[1] ?? null;
+
+switch ($route) {
     case 'user':
         echo $user->getUsername() . PHP_EOL;
         break;
@@ -23,4 +25,6 @@ switch ($argv[1]) {
     case 'comment':
         echo $comment . PHP_EOL;
         break;
+    default:
+        echo 'error try (user post comment) parametr.';
 }

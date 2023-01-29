@@ -22,7 +22,7 @@ $usersRepository = new SqliteUsersRepository($connection);
 $postsRepository = new SqlitePostsRepository($connection);
 $commentsRepository = new SqliteCommentsRepository($connection);
 
-// Создаем объект команд командной строки
+// Создаем объект команд терминала
 $command = new CreateUserCommand($usersRepository);
 
 try {

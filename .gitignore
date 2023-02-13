@@ -2,8 +2,11 @@
 
 # dependencies
 vendor/
+#.env
 
 # testing
+.phpunit.result.cache
+#coverage_report/
 
 # production
 

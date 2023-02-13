@@ -148,35 +148,6 @@ class CreatePostTest extends TestCase
      * @runInSeparateProcess
      * @preserveGlobalState disabled
      */
-//    public function testItReturnsErrorResponseIfNotFoundUser(): void
-//    {
-//        $request = new Request([], [], '{"author_uuid":"10373537-0805-4d7a-830e-22b481b4859c","title":"title","text":"text"}');
-//
-//        $postsRepositoryStub = $this->createStub(PostsRepositoryInterface::class);
-//        $authenticationStub = $this->createStub(JsonBodyUuidIdentification::class);
-//
-//        $authenticationStub
-//            ->method('user')
-//            ->willThrowException(
-//                new AuthException('Cannot find user: 10373537-0805-4d7a-830e-22b481b4859c')
-//            );
-//
-//        $action = new CreatePost($postsRepositoryStub, $authenticationStub, new DummyLogger());
-//
-//        $response = $action->handle($request);
-//
-//        $response->send();
-//
-//        $this->assertInstanceOf(ErrorResponse::class, $response);
-//        $this->expectOutputString('{"success":false,"reason":"Cannot find user: 10373537-0805-4d7a-830e-22b481b4859c"}');
-//
-//
-//    }
-
-    /**
-     * @runInSeparateProcess
-     * @preserveGlobalState disabled
-     */
     public function testItReturnsErrorResponseIfNoTextProvided(): void
     {
         $request = new Request([], [], '{"author_uuid":"10373537-0805-4d7a-830e-22b481b4859c","title":"title"}');

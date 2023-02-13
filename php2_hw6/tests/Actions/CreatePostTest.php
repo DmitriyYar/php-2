@@ -30,8 +30,7 @@ class CreatePostTest extends TestCase
         return new class($users) implements UsersRepositoryInterface {
             public function __construct(
                 private array $users
-            )
-            {
+            ) {
             }
 
             public function save(User $user): void
@@ -140,7 +139,6 @@ class CreatePostTest extends TestCase
 
         $this->expectOutputString('{"success":true,"data":{"uuid":"351739ab-fc33-49ae-a62d-b606b7038c87"}}');
 
-
         $response->send();
     }
 
@@ -173,5 +171,4 @@ class CreatePostTest extends TestCase
 
         $response->send();
     }
-
 }

@@ -1,0 +1,11 @@
+
+# production
+vendor/
+#.env
+
+# testing
+coverage_report/
+.phpunit.result.cache
+
+# misc
+.idea/

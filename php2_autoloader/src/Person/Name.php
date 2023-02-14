@@ -1,0 +1,21 @@
+<?php
+
+namespace GeekBrains\LevelTwo\Person;
+
+class Name
+{
+    /**
+     * @param string $firstName
+     * @param string $lastName
+     */
+    public function __construct(
+        private string $firstName,
+        private string $lastName
+    ) {
+    }
+
+    public function __toString()
+    {
+        return $this->firstName . ' ' . $this->lastName;
+    }
+}

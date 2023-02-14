@@ -6,7 +6,7 @@ vendor/
 
 # testing
 .phpunit.result.cache
-#coverage_report/
+coverage_report/
 
 # production
 

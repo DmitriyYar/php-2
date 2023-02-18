@@ -1,14 +1,11 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 vendor/
 #.env
 
 # testing
-.phpunit.result.cache
 coverage_report/
-
-# production
+.phpunit.result.cache
 
 # misc
 .idea/

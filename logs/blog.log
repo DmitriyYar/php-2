@@ -1,0 +1,7 @@
+[2023-02-09T18:56:40.478207+00:00] blog.INFO: Create user command started [] []
+[2023-02-12T18:46:20.340026+00:00] blog.NOTICE: Route not found: GET /likePosts1/show [] []
+[2023-02-12T18:48:23.660862+00:00] blog.INFO: Saved user with uuid: f56eb654-0559-4157-8887-978f639b9c50 [] []
+[2023-02-12T18:49:35.988676+00:00] blog.INFO: Saved post with uuid: dab753c8-0578-4c66-83f6-a685e9a0b374 [] []
+[2023-02-12T18:50:38.310456+00:00] blog.INFO: Saved comment with uuid: 7cbaaebf-ccd3-4027-ac28-754f503a2384 [] []
+[2023-02-12T18:52:32.328117+00:00] blog.INFO: Saved likePost with uuid: 61c619da-41c1-48d3-b633-42fd72e9976c [] []
+[2023-02-12T18:53:59.630940+00:00] blog.INFO: Saved likeComment with uuid: 57631168-6c88-4be0-94c5-43cc634cc41b [] []

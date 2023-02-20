@@ -59,7 +59,6 @@ $routes = [
         '/comments/show' => FindCommentByUuid::class,
         '/likePosts/show' => FindLikePostByUuid::class,
         '/likeComments/show' => FindLikeCommentByUuid::class,
-        '/logout' => LogOut::class,
     ],
     'POST' => [
         '/users/create' => CreateUser::class,
@@ -69,6 +68,7 @@ $routes = [
         '/likesComments/create' => CreateLikeComment::class,
         // Добавили маршрут обмена пароля на токен
         '/login' => LogIn::class,
+        '/logout' => LogOut::class,
     ],
     'DELETE' => [
         '/users' => DeleteUser::class,

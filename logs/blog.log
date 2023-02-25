@@ -75,3 +75,5 @@
 [2023-02-19T15:20:44.685697+00:00] blog.INFO: Saved post with uuid: 65a02358-2ed0-4264-bc93-63977455dea4 [] []
 [2023-02-20T13:10:56.415455+00:00] blog.INFO: Saved likeComment with uuid: 36befee2-0588-433a-bf89-487b199648ba [] []
 [2023-02-20T13:15:33.329522+00:00] blog.NOTICE: Route not found: GET /logout [] []
+[2023-02-24T10:59:21.533448+00:00] blog.INFO: Saved post with uuid: 52f61fc9-c396-4534-8aa5-25ee4b1633c7 [] []
+[2023-02-24T10:59:50.772304+00:00] blog.INFO: Saved post with uuid: ce5711c0-87f0-49f4-8a41-1d3fef1ad6bd [] []
